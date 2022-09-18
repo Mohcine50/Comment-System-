@@ -1,0 +1,135 @@
+.reply {
+  display: flex;
+  gap: 18px;
+  background-color: var(--White);
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px;
+}
+.reply .details {
+  width: 100%;
+  height: 100%;
+}
+
+.reply .upvote {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 12px;
+  flex-direction: column;
+  background-color: var(--Very-light-gray);
+  height: fit-content;
+  padding: 10px 10px;
+  border-radius: 7px;
+}
+.reply .upvote > span {
+  color: var(--Moderate-blue);
+  font-weight: 500;
+}
+.reply .more-infos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.reply .user-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.reply .user-info > img {
+  width: 40px;
+}
+
+.reply .user-info > img {
+  width: 40px;
+}
+
+.reply .user-info > h1 {
+  font-weight: 500;
+  font-size: 15px;
+  color: var(--Dark-blue);
+}
+.reply .user-info > p {
+  font-weight: 400;
+  font-size: 15px;
+  color: var(--Grayish-Blue);
+}
+
+.reply p > span {
+  color: var(--Moderate-blue);
+  font-weight: 500;
+}
+
+.reply .more-infos button {
+  background-color: var(--White);
+  color: var(--Moderate-blue);
+  outline: none;
+  border: none;
+}
+
+.reply .more-infos .delete {
+  color: var(--Soft-Red);
+}
+
+.reply .more-infos button > span {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: var(--rubik);
+  margin-left: 7px;
+}
+
+.reply .comment-p {
+  font-size: 16px;
+  color: var(--Grayish-Blue);
+  line-height: 19px;
+  margin: 10px 0;
+}
+.reply .username > span {
+  background-color: var(--Moderate-blue);
+  color: var(--White);
+  font-weight: 500;
+  font-size: 12px;
+  margin-left: 4px;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.reply .comment-p {
+  font-size: 16px;
+  color: var(--Grayish-Blue);
+  line-height: 19px;
+  margin: 10px 0;
+  text-align: start;
+
+  resize: none;
+  font-family: var(--rubik);
+  width: 90%;
+  border: none;
+}
+.reply .comment-p-reply {
+  border: 2px solid var(--Very-light-gray);
+  border-radius: 6px;
+  padding: 10px;
+  padding-right: 2;
+}
+
+.reply .update {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.reply .update > button {
+  background-color: var(--Moderate-blue);
+  padding: 8px 8px;
+  font-family: var(--rubik);
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--White);
+  border: none;
+  border-radius: 5px;
+}
+.reply .update .display {
+  display: none;
+}

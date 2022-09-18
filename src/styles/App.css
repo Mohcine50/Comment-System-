@@ -1,0 +1,11 @@
+.App {
+  background-color: var(--Very-light-gray);
+  min-height: 100vh;
+  font-family: var(--rubik);
+  position: relative;
+}
+.App .container {
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 40px;
+}

@@ -1,0 +1,60 @@
+.overley {
+  width: 100%;
+  height: 100%;
+  background-color: #67727e8e;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.overley-display {
+  display: none;
+}
+.deletePopUp {
+  background-color: var(--White);
+  padding: 20px;
+  width: 290px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 20px;
+  border-radius: 8px;
+  position: fixed;
+  top: 50vh;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.deletePopUp > h1 {
+  font-size: 17px;
+  font-weight: 500;
+  color: var(--Dark-blue);
+}
+.deletePopUp > p {
+  color: var(--Grayish-Blue);
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.deletePopUp .btns {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.deletePopUp .btns button {
+  font-family: var(--rubik);
+  flex-grow: 5;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  color: var(--White);
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.deletePopUp .btns button:nth-child(1) {
+  background-color: var(--Grayish-Blue);
+}
+.deletePopUp .btns button:nth-child(2) {
+  background-color: var(--Soft-Red);
+}

@@ -1,0 +1,39 @@
+.display-reply {
+  display: none;
+}
+.replyInput > form {
+  display: flex;
+  background-color: white;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 15px;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px;
+}
+.replyInput form > textarea {
+  border: 2px solid var(--Very-light-gray);
+  border-radius: 6px;
+  flex-grow: 6;
+  height: 100px;
+  text-align: start;
+  padding: 10px;
+  resize: none;
+  font-family: var(--rubik);
+}
+
+.replyInput form > img {
+  max-width: 60px;
+}
+
+.replyInput form > button {
+  flex-grow: 1;
+  background-color: var(--Moderate-blue);
+  padding: 8px 4px;
+  font-family: var(--rubik);
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--White);
+  border: none;
+  border-radius: 5px;
+}
